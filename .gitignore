@@ -1,0 +1,25 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Database & vector store
+*.db
+*.sqlite3
+chroma_db/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+
+# OS
+.DS_Store
+Thumbs.db
